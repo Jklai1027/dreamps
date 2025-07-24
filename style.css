@@ -1,0 +1,247 @@
+body {
+    background: linear-gradient(320deg, #eb92b2, #ffef78, #63c9b4);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+/* Host Page */
+.host-page .container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.host-page p {
+    color: #FFE66D;
+    font-size: 23px;
+    text-align: center;
+}
+
+.host-page h3 {
+  font-size: 25px;
+  color: #08D9D6;
+}
+
+.host-page h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    width: 60%;
+    background-color: #f2f1aa;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.host-page a {
+    text-decoration: none;
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #01efeb;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.host-page .logo {
+    width: 120px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.host-page .button-group {
+    margin-top: 25px;
+}
+
+.host-page .btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.host-page .host {
+  background: 	linear-gradient(to right, #74ebd5, #ACB6E5);
+  color: white;
+}
+
+.host-page .back {
+  background: 	linear-gradient(to right, #f2709c, #ff9472);
+  color: white;
+}
+
+/* Home Page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #d4fc79, #96e6a1);
+  color: #333;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.home-page .container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.home-page .logo {
+  width: 120px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.home-page h1 {
+  font-size: 2.2rem;
+  color: #2b2b2b;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.home-page .wag {
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  color: white;
+}
+
+.home-page .button-group {
+  margin-top: 25px;
+}
+
+.home-page .btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  margin: 0 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.home-page .contact {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);;
+  color: white;
+}
+
+.home-page .host {
+  background: linear-gradient(to right, #f8cdda, #1d2b64);
+  color: white;
+}
+
+.home-page .btn:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+
+/* Social Link */
+.contact-page .container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 40px 20px;    
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page .logo {
+  width: 120px;
+  border-radius: 15px;
+  border-bottom: 20px;
+}
+
+.contact-page .button-group {
+  margin-top: 25px;
+}
+
+.contact-page .btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  background-color: 	#A7C7E7;
+  margin: 0 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 25px;
+  display: inline-block;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.contact-page p {
+  font-size: 20px;
+}
+
+.contact-page .wa {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  color: white;
+}
+
+.contact-page .ig {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  color: white;
+}
+
+.contact-page .back {
+   font-size: 25px;
+   background: linear-gradient(to right, #00c6ff, #0072ff);
+   color: white;
+}
+
+
+/* Nav */
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
